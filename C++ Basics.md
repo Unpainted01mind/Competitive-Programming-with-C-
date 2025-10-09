@@ -11,13 +11,12 @@ C++ is a fast, compiled, low level language which is used in many applications s
 
 Below is a simple C++ program which prints Hello World
 
-''' cpp
+``` cpp
 #include <iostream>
 int main(){
   std::cout<<"Hello World"<<std::endl;
   return 0;
 }
-
-'''
+```
 
 
