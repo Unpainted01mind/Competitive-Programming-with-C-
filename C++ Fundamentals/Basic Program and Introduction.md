@@ -20,10 +20,13 @@ int main(){
 ```
 #### C++ was developed by Bjarne Stroustrup as an upgrade/enhancement of C++
 ### Features of C++ :-
-* Simple - Friendly/logical syntax
-* Machine Independent given that system has a compiler for it
-* Provides low level access to system resources
-* 
+* simple - Friendly/logical syntax
+* machine Independent given that system has a compiler for it
+* provides low level access to system resources
+* fast execution speed hence preferred for competitive programming
+* has object oriented features
+
+  
 
 
 
