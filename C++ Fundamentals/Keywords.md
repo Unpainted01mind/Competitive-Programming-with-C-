@@ -22,3 +22,4 @@ int main(){
 |Category|Keyword|
 |--------|-------|
 |Data Types|bool , char , char8_t ,char16_t , char32_t , long , short , int , unsigned , signed , float , double , void , wchar_t|
+|Control Flow|if , else , switch , case , default , for , while , continue , goto|
