@@ -38,7 +38,7 @@ class Student{
   int roll_no;
   double marks;
   std::string name;
-}
+};
 void display(int roll_no,double marks,std::string name){
   //Identifiers used to define a function.
   std::cout<<"Displaying Details"<<std::endl;
@@ -55,6 +55,19 @@ int main(){
   return 0;
 }
 ```
+
+### Naming conventions for C++ identifiers :-
+
+1) Variables and Functions :-
+
+* use camelCase , for constants use UPPER_SNAKE_CASE
+* Ex - frequencyCount,studentMarks
+* for functions use camelCase, Ex- getCount,isTrue 
+
+2) Classes :-
+
+* use PascalCase 
+* Ex - Student_Details,Car,Bank_System
 
 
   
