@@ -24,7 +24,7 @@ int main(){
 * machine Independent given that system has a compiler for it
 * provides low level access to system resources
 * fast execution speed hence preferred for competitive programming
-* has object oriented features 
+* has object oriented feature(s)
 
   
 
