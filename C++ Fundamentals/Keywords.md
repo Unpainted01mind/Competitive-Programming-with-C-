@@ -15,3 +15,10 @@ int main(){
     std::cout<<"The name is: "<<name<<std::endl;
     return 0;
 }
+```
+
+### Categorisation of Keywords :-
+
+|Category|Keyword|
+|--------|-------|
+|Data Types|bool,char,char8_t,char16_t,char32_t,long,short,int,unsigned,signed,float,double,void,wchar_t|
