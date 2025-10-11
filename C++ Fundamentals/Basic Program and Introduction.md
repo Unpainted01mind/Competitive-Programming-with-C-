@@ -1,4 +1,4 @@
-### What is C++ ?
+## What is C++ ?
 
 C++ is a fast, compiled, low level language which is used in many applications such as :-
 * Compilers and GUI's , Operating Systems
