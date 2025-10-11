@@ -24,8 +24,15 @@ int main(){
 |Data Types|bool , char , char8_t ,char16_t , char32_t , long , short , int , unsigned , signed , float , double , void , wchar_t|
 |Control Flow|if , else , switch , case , default , for , while , continue , goto|
 |Boolean & Null|true , false , nullptr|
-|Memory Management|new , delete , alignas ,   algignof , sizeof|
+|Memory Management|new , delete , alignas ,   alignof , sizeof|
 |Classes & Structs|class , struct , enum , mutable , this , friend|
 |Access Specifiers|public , private , protected|
 |Functions & Modifiers|inline , explicit , virtual , override , constexpr , consteval , constinit , operator , typedef , using , typename|
-
+|Templates & Generics|template , concept  , requires|
+|Exception Handling|try , catch , throw , noexcept|
+|Casting & type info|const_cast ,  dynamic_cast , reinterpret_cast ,  static_cast , decltype , typeid|
+|Constants & Storage|const , static , static_assert , extern , register , thread_local , volatile|
+|Modules/Export|export , namespace|
+|Coroutines(C++20)|co_await , co_return , co_yield|
+|Operators(alternate spellings)|and , and_eq , or , or_eq , not , not_eq , bitand , bitor , compl , xor , xor_eq|
+|Miscellanous|asm , auto , return , sizeof|
