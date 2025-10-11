@@ -27,6 +27,36 @@ int main(){
 * fast execution speed hence preferred for competitive programming
 * has object oriented features.
 
+#### ❄ Below code shows identifiers being used for different entitities :-
+
+``` cpp
+#include <iostream>
+#include <string>
+
+class Student{
+  //Identifiers being used for class and its variables.
+  int roll_no;
+  double marks;
+  std::string name;
+}
+void display(int roll_no,double marks,std::string name){
+  //Identifiers used to define a function.
+  std::cout<<"Displaying Details"<<std::endl;
+  std::cout<<"Name: "<<name<<std::endl;
+  std::cout<<"ROll number: "<<roll_no<<std::endl;
+  std::cout<<"Marks: "<<marks<<std::endl;
+}
+int main(){
+  //Identifiers used to define main function variables.
+  int r=10;
+  double marks=100.00;
+  std::string name="Alberto";
+  display(r,marks,name);
+  return 0;
+}
+```
+
+
   
 
 
