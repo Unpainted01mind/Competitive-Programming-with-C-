@@ -37,7 +37,9 @@ int main(){
 |Operators(alternate spellings)|and , and_eq , or , or_eq , not , not_eq , bitand , bitor , compl , xor , xor_eq|
 |Miscellanous|asm , auto , return , sizeof|
 
+
 #### ❄ C++ 98 had 63 keywords, C++ 11 had 84 keywords, C++.
+
 
 ### Differences between keywords and identifiers :-
 
