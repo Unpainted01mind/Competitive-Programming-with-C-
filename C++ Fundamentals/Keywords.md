@@ -36,3 +36,16 @@ int main(){
 |Coroutines(C++20)|co_await , co_return , co_yield|
 |Operators(alternate spellings)|and , and_eq , or , or_eq , not , not_eq , bitand , bitor , compl , xor , xor_eq|
 |Miscellanous|asm , auto , return , sizeof|
+
+#### ❄ C++ 98 had 63 keywords, C++ 11 had 84 keywords, C++.
+
+### Differences between keywords and identifiers :-
+
+|Keywords|Identifiers|
+|--------|-----------|
+|predefined/reserved words used for a specific purpose|unique names given to variables,structs,functions,enums,classes|
+|defined the type of entity|declares the name of entity|
+|contains only alphabetical characters|contains alphanumeric , numeric , underscore combinations of alphanumeric characters|
+|should be lowercase|can be both upper and lowercase|
+|no special keywords/punctuations allowed for keywords|similar to keywords but only underscores(_) are allowed for identifiers|
+|Ex - int , float , double , void|Ex - car_Name , get_Count , MAX_SIZE|
