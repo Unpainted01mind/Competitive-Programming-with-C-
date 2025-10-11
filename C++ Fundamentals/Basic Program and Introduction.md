@@ -8,7 +8,7 @@
 * Similar syntax to C,C#
 * high speed serves as a good choice for competitive programming
 
-#### &rarr Below is a simple C++ program which prints Hello World :-
+#### &rarr; Below is a simple C++ program which prints Hello World :-
 
 ``` cpp
 #include <iostream>
@@ -17,7 +17,7 @@ int main(){
   return 0;
 }
 ```
-#### &rarr C++ was developed by Bjarne Stroustrup as an upgrade/enhancement of C.
+#### &rarr; C++ was developed by Bjarne Stroustrup as an upgrade/enhancement of C.
 
 ### Features of C++ :-
 
