@@ -1,6 +1,6 @@
 # C++ Identifiers
 
- *Identifiers are basically unique names given to functions,variables,structs and such entities so that they can be used in our program.
+ *Identifiers are basically unique names given to functions,variables,structs and such entities so that they can be used in our program.*
 
 ### The below program uses a,b,sum as the names for our variables.
 
