@@ -1,4 +1,4 @@
-## C++ Identifiers
+# C++ Identifiers
 
 Identifiers are basically unique names given to functions,variables,structs and such entities so that they can be used in our program.
 
@@ -16,6 +16,6 @@ int main(){
 }
 ```
 
-#### Rules for naming identifiers :-
+### Rules for naming identifiers :-
 
 
