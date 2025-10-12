@@ -6,7 +6,7 @@
 
 There are 6 types of operators in C++ :-
 
-1) Arithematic Operators :-
+* Arithematic Operators :-
 
 1) Addition -> +, adds two operands
 2) Subtraction -> -, subtracts operand 2 from operand 1
