@@ -127,5 +127,5 @@ int main(){
 
 }
 ``` 
-#### ❄ In the above code, long int is used to store a larger range of int (-(2^63) to (2^63 -1)) as compared to that of int
+#### ❄ In the above code, long int is used to store a larger range of int (-(2^63) to (2^63 -1)) as compared to that of int.
 
