@@ -59,4 +59,26 @@ int main(){
 ```
 #### ❄ The rules for naming a variable is the same for naming identifiers , which can be accessed at [Naming_Rules](Identifiers.md)
 
+### Constant Variables :-
 
+*These are the variables whose value cannot be modified after they have been initialised, doing such would result in a compilation error.*
+
+#### ❄ Below code shows us a constant variable :-
+
+``` cpp
+#include <iostream>
+int main(){
+    const int var=20;
+    //const keyword is used so that var stores the value 20 and cannot be modified to any other value
+    var=95;
+    //compiler immediately throws an exception since a constant type variable is modified, hence the line below is not executed and program terminates.
+    std::cout<<"changed var to : "<<var<<std::endl;
+    return 0;
+}
+```
+
+### Memory Management of variables :-
+
+*When we create or declare a variable , a fixed size memory block is allocated for that variable in memory , it has a garbage(random)value before initialisation, we initialise it to give it a meaningful value of its datatype.*
+
+![alt text](image.png)
