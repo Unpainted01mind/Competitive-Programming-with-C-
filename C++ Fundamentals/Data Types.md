@@ -102,4 +102,30 @@ int main(){
 
 *Data type conversion refers to changing the type of one variable to another compatible one without losing its original meaning*
 
+```cpp
+#include <iostream>
+int main(){
+
+    int num=3;
+    char c='C';
+    std::cout<<"ASCII value of C: "<<(int)c<<std::endl;
+    std::cout<<"ASCII value of C added to num: "<<num+(int)c<<std::endl;
+
+    return 0;
+
+}
+```
+### Data type modifiers :-
+
+*Modifiers are used to change or give additional meaning to existing data types , they are used to increase the size/range of existing data types.*
+
+```cpp
+#include <iostream>
+int main(){
+    int num=20;//4 bytes
+    long int long_num=400;//8 bytes
+
+}
+``` 
+#### ❄ In the above code, long int is used to store a larger range of int (-(2^63) to (2^63 -1)) as compared to that of int
 
