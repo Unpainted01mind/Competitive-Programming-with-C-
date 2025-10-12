@@ -57,6 +57,6 @@ int main(){
     return 0;
 }
 ```
-#### ❄ The rules for naming a variable is the same for naming identifiers , which can be accessed at [Naming_Rules](C++Fundamentals/Identifiers.md)
+#### ❄ The rules for naming a variable is the same for naming identifiers , which can be accessed at [Naming_Rules](Competitive-Programming-with-C-/C++Fundamentals/Identifiers.md)
 
 
