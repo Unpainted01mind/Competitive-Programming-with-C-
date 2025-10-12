@@ -14,3 +14,40 @@ There are 6 types of operators in C++ :-
 4) Multiplication -> *, multiplies operand 1 and operand 2
 5) Modulo -> %, returns the remainder of an integer division
 6) Increment(++) and Decreament(--) -> increase/decrease the value of an operand by 1 respectively
+
+``` cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 8, b = 3;
+
+    // Addition
+    cout << "a + b = " << (a + b) << endl;
+  
+    // Subtraction
+    cout << "a - b = " << (a - b) << endl;
+  
+    // Multiplication
+    cout << "a * b = " << (a * b) << endl;
+  
+    // Division
+    cout << "a / b = " << (a / b) << endl;
+  
+    // Modulo
+    cout << "a % b = " << (a % b) << endl;
+  
+    // Increament
+    cout << "++a = " << ++a << endl;
+  
+    // Decrement
+    cout << "b-- = " << b--;
+    
+    return 0;
+}
+```
+### ❄ Important Points :-
+* *Modulo must only be used with integer operands, other operators can be used for integers.*
+* *++a and a++ are both increment operators but in the former a is incremented first and then a is assigned, in the latter a is assigned first and then incremented.*
+* *++ and -- are unary operators and require only one operand.*
+* *while binary and ternary operators work on 2 and 3 operands respectively.*
