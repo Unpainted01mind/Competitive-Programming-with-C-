@@ -51,3 +51,14 @@ int main() {
 * *++a and a++ are both increment operators but in the former a is incremented first and then a is assigned, in the latter a is assigned first and then incremented.*
 * *++ and -- are unary operators and require only one operand.*
 * *while binary and ternary operators work on 2 and 3 operands respectively.*
+
+* Relational Operators :-
+
+*Used for comparison of values of two operands.*
+
+1) Is equal to(==) :- checks if both the operands are equal by value.
+2) Greater than(>) :- checks if operand one is greater than operand two by value.
+3) Greater than or equal to(>=) :- checks if the first operand is greater than or equal to the second operand.
+4) Less than(<) :- checks if operand one is smaller than operand two by value.
+5) Less than or equal to(<=) :- checks if operand one is less than or equal to operand two.
+6) Not equal to(!=) :- checks if operand oen and two are not equal.
