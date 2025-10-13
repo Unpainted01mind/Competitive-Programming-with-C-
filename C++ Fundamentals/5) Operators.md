@@ -61,4 +61,35 @@ int main() {
 3) Greater than or equal to(>=) :- checks if the first operand is greater than or equal to the second operand.
 4) Less than(<) :- checks if operand one is smaller than operand two by value.
 5) Less than or equal to(<=) :- checks if operand one is less than or equal to operand two.
-6) Not equal to(!=) :- checks if operand oen and two are not equal.
+6) Not equal to(!=) :- checks if operand one and two are not equal.
+
+``` cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 6, b = 4;
+
+    // Equal operator
+    cout << "a == b is " << (a == b) << endl;
+  
+    // Greater than operator
+    cout << "a > b is " << (a > b) << endl;
+  
+    // Greater than Equal to operator
+    cout << "a >= b is " << (a >= b) << endl;
+  
+    //  Lesser than operator
+    cout << "a < b is " << (a < b) << endl;
+  
+    // Lesser than Equal to operator
+    cout << "a <= b is " << (a <= b) << endl;
+  
+    // Not equal to operator
+    cout << "a != b is " << (a != b);
+
+    return 0;
+}
+```
+
+
