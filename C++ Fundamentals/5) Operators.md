@@ -130,5 +130,40 @@ int main() {
 5) Right Shift -> >>, shifts the value to the right by the number of bits specified by the right operand.
 6) One's (1's) Complement -> finds the complement which means that it returns True/1 if the operand is False/0 and vice versa.
 
+#### ❄ Only int and char datatype can be used for bitwise operations.
 
+```cpp
+#include <iostream>
+using namespace std;
 
+int main() {
+    int a = 6, b = 4;
+
+    // Binary AND operator
+    cout << "a & b is " << (a & b) << endl;
+
+    // Binary OR operator
+    cout << "a | b is " << (a | b) << endl;
+
+    // Binary XOR operator
+    cout << "a ^ b is " << (a ^ b) << endl;
+
+    // Left Shift operator
+    cout << "a << 1 is " << (a << 1) << endl;
+
+    // Right Shift operator
+    cout << "a >> 1 is " << (a >> 1) << endl;
+
+    // One’s Complement operator
+    cout << "~(a) is " << ~(a);
+
+    return 0;
+}
+```
+
+* Assignment Operators :-
+  
+*Assignment operators are used to assign a value to a variable , namely using a right operand to assign a value to a left operand.*
+
+1) Assignment -> == , used to assign the value of the right operand to a left operand.
+2) 
