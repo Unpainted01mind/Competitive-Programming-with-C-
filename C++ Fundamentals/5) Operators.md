@@ -261,6 +261,27 @@ sptr -> member;
 static_cast<float>(x)
 ```
 
-### Operator Precedency and Associativity :-
 
-*It tells us what in what order the operations have to be performed and how they are grouped together. Precedency tells us which expression should be evaluated first and associativity tells us the direction in which these expressions have to be evaluated.*
+### Operator Precedence in C++ :-
+
+*Operator precedence signifies the order in which operators are evaluated to solve an expression, those with the highest priority are evaluated first and those with the least priority are evaluated at the end.*
+*For example -> 10+30*5 contains two operators (+) and (*) , since (*) has a higher priority than (+) hence it is evaluated first , hence the result of the operation is 10 + 150 = 160 .*
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Multiplication has higher precedence
+    int result = 10 + 20 * 30;
+
+    cout << "Result: " << result << endl;
+    return 0;
+}
+```
+<img width="1052" height="99" alt="image" src="https://github.com/user-attachments/assets/bd7961cf-2e18-4d89-b377-6a0b0edc294d" />
+
+### Operator Associativity basially implies the order of grouping of operands when multiple operators with the same precedence may be present in the expression , there are two types of operator associativity in C++ :-
+
+1)
