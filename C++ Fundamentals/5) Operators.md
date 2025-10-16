@@ -241,19 +241,19 @@ sizeof (var_name);
 int n = (m+1, m-2, m+5);
 int a, b, c;
 ```
-3)Addressof Operator(&) -> it is used to get the memory address of the location where a variable is stored, it is also used to create a reference.
+3) Addressof Operator(&) -> it is used to get the memory address of the location where a variable is stored, it is also used to create a reference.
 ```cpp
 &var_name;
 ```
-4)Dot Operator(.) -> used to access the members of a structure or a class object using their object names.
+4) Dot Operator(.) -> used to access the members of a structure or a class object using their object names.
 ```cpp
 obj . member;
 ```
-5)Arrow Operator(->) -> used to access the variables of a class or a stucture through its pointer.
+5) Arrow Operator(->) -> used to access the variables of a class or a stucture through its pointer.
 ```cpp
 sptr -> member;
 ```
-6)Casting Operations -> casting operators are used to change the data type of a variable to another type without the variable losing its original value/signigficance.
+6) Casting Operations -> casting operators are used to change the data type of a variable to another type without the variable losing its original value/signigficance.
 ```cpp
 (float)x
 static_cast<float>(x)
