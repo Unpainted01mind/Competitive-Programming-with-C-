@@ -260,3 +260,7 @@ sptr -> member;
 (float)x
 static_cast<float>(x)
 ```
+
+### Operator Precedency and Associativity :-
+
+*It tells us what in what order the operations have to be performed and how they are grouped together. Precedency tells us which expression should be evaluated first and associativity tells us the direction in which these expressions have to be evaluated.*
