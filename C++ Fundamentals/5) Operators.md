@@ -197,15 +197,16 @@ int main() {
 }
 ```
 
+
 * Ternary or Conditional Operators :-
   
-*A conditional operator returns a value based on the condition and it takes 3 operands , hence known as Ternary Operators. *
+*A conditional operator returns a value based on the condition and it takes 3 operands , hence known as Ternary Operators.*
 
 #### ❄ Syntax of a ternary operator :-
 Expression1 ? Expression2 : Expression3
 
 #### ❄ Explaination of the above code :-
 
-* the above operator takes expression 1 one as an input
-* if expression 1 is true then expression 2 will be returned
-* else if expression 1 is false then expression 3 is returned
+* the above operator takes Expression 1 one as an input
+* if expression 1 is true then Expression 2 will be returned
+* else if expression 1 is false then Expression 3 is returned
