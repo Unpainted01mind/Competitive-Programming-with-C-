@@ -120,7 +120,15 @@ int main() {
 ```
 
 * Bitwise Operators :-
-**
+  
+*Bitwise operators perform operations on individual bits which are obtained by compilation and conversion to bits.*
+
+1) Bitwise AND -> &, copies bit to the result if it exists in both the operands.
+2) Bitwise OR -> |, copies bit to the result if it exists in either of the operands.
+3) Bitwise XOR -> ^, copies a bit to the result if it exists in either of the operands but not both.
+4) Left Shift -> <<, shifts the value to the left by the number of bits specified by the right operand.
+5) Right Shift -> >>, shifts the value to the right by the number of bits specified by the right operand.
+6) One's (1's) Complement -> finds the complement which means that it returns True/1 if the operand is False/0 and vice versa.
 
 
 
