@@ -281,5 +281,8 @@ int main()
 }
 ```
 
-### Operator Associativity basially implies the order of grouping of operands when multiple operators with the same precedence may be present in the expression , there are two types of operator associativity in C++ :-
+### Operator Associativity:-
+
+*Basially implies the order of grouping of operands when multiple operators with the same precedence may be present in the expression , there are two types of operator associativity in C++ :-*
+
 1)
