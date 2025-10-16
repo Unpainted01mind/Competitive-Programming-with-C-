@@ -91,5 +91,36 @@ int main() {
     return 0;
 }
 ```
+* Logical Operators :-
+  
+*Logical Operators are used to combine two or more conditions/statements or to compliment the original given condition, it returns boolean value True or False.*
+
+1) Logical AND -> &&, returns True only if all operands are true or non-zero.
+2) Logical OR -> ||, returns True if either of the operands are true or non-zero.
+3) Logical NOT-> !, it is a unary operator meaning that it acts on only one operand. True is returned only if the operand is false or zero.
+   
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 6, b = 4;
+
+    // Logical AND operator
+    cout << "a && b is " << (a && b) << endl;
+  
+    // Logical OR operator
+    cout << "a || b is " << (a || b) << endl;
+  
+    // Logical NOT operator
+    cout << "!b is " << (!b);
+
+    return 0;
+}
+```
+
+* Bitwise Operators :-
+**
+
 
 
