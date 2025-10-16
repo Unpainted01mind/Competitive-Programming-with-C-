@@ -210,3 +210,51 @@ Expression1 ? Expression2 : Expression3
 * the above operator takes Expression 1 one as an input
 * if expression 1 is true then Expression 2 will be returned
 * else if expression 1 is false then Expression 3 is returned
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 3, b = 4;
+
+    // Conditional Operator
+    int result = (a < b) ? b : a;
+    cout << "The greatest number "
+          "is " << result;
+
+    return 0;
+}
+```
+
+* Miscellaneous Operators :-
+  
+*Apart from these operators , there are some operators which are different from the above standard operators :-*
+
+1) Sizeof Operator (sizeof) -> it is a unary operator used to compute the size of a variable or operand in bytes.
+```cpp
+sizeof (char);
+sizeof (var_name);
+```
+2) Comma Operator(,) -> it is a binary operator and has multiple uses in c++ such as a seperator or used to evaluate the first operand and discard the result, evaluate the second result and discard the result and so on.
+```cpp
+int n = (m+1, m-2, m+5);
+int a, b, c;
+```
+3)Addressof Operator(&) -> it is used to get the memory address of the location where a variable is stored, it is also used to create a reference.
+```cpp
+&var_name;
+```
+4)Dot Operator(.) -> used to access the members of a structure or a class object using their object names.
+```cpp
+obj . member;
+```
+5)Arrow Operator(->) -> used to access the variables of a class or a stucture through its pointer.
+```cpp
+sptr -> member;
+```
+6)Casting Operations -> casting operators are used to change the data type of a variable to another type without the variable losing its original value/signigficance.
+```cpp
+(float)x
+static_cast<float>(x)
+```
