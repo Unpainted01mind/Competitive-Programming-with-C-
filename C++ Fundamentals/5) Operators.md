@@ -166,4 +166,46 @@ int main() {
 *Assignment operators are used to assign a value to a variable , namely using a right operand to assign a value to a left operand.*
 
 1) Assignment -> == , used to assign the value of the right operand to a left operand.
-2) 
+2) Add Assignment -> += , adds the right operand to left operand and assign the result to the left operand.
+3) Subtract and Assignment -> -= , subtracts the right operand from the left operand and assigns the result to the left operand.
+4) Multiply and Assignment -> *= , multiplies the right and left operands and assigns the result to the left operand.
+5) Divide and Assignment -> /= , divides the left operand by the right operand and assigns the result to the left operand.
+
+```cpp
+#include <iosteam>
+using namespace std;
+
+int main() {
+    int a = 6, b = 4;
+
+    // Assignment Operator.
+    cout << "a = " << a << endl;
+  
+    //  Add and Assignment Operator.
+    cout << "a += b is " << (a += b) << endl;
+  
+    // Subtract and Assignment Operator.
+    cout << "a -= b is " << (a -= b) << endl;
+  
+    //  Multiply and Assignment Operator.
+    cout << "a *= b is " << (a *= b) << endl;
+  
+    //  Divide and Assignment Operator.
+    cout << "a /= b is " << (a /= b);
+
+    return 0;
+}
+```
+
+* Ternary or Conditional Operators :-
+  
+*A conditional operator returns a value based on the condition and it takes 3 operands , hence known as Ternary Operators. *
+
+#### ❄ Syntax of a ternary operator :-
+Expression1 ? Expression2 : Expression3
+
+#### ❄ Explaination of the above code :-
+
+* the above operator takes expression 1 one as an input
+* if expression 1 is true then expression 2 will be returned
+* else if expression 1 is false then expression 3 is returned
